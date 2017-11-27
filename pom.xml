@@ -11,7 +11,7 @@
 
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>jasperreports-maven-plugin</artifactId>
-  <version>1.0-beta-4-OPENNMS-SNAPSHOT</version>
+  <version>1.0.4-SNAPSHOT</version>
 
   <packaging>maven-plugin</packaging>
 
@@ -133,7 +133,6 @@
   </dependencies>
 
   <properties>
-    <mojo.java.target>1.8</mojo.java.target>
+    <mojo.java.target>1.7</mojo.java.target>
   </properties>
-
 </project>

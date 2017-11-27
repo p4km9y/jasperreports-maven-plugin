@@ -47,8 +47,8 @@ public class JasperReportsMojoTest
     public void testClasspathBuildingWorksWithEmptyList()
     {
         JasperReportsMojo mojo = new JasperReportsMojo();
-        assertEquals( "", mojo.buildClasspathString( Collections.emptyList(), null ) );
-        assertEquals( "plop", mojo.buildClasspathString( Collections.emptyList(), "plop" ) );
+        assertEquals( "", mojo.buildClasspathString( Arrays.asList( new String[] {} ), null ) );
+        assertEquals( "plop", mojo.buildClasspathString( Arrays.asList( new String[] {} ), "plop" ) );
     }
 
     public void testClasspathBuildingWorksWithSingletonList()
